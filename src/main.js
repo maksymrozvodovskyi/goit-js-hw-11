@@ -7,6 +7,8 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { createMarkup } from './js/render-functions';
 import { getData } from './js/pixabay-api';
 
+import errorIcon from '/img/error.png';
+
 export const resp = {
   formEl: document.querySelector('.form'),
   galleryEl: document.querySelector('.gallery'),
